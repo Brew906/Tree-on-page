@@ -1,5 +1,5 @@
 function tree(){
-    for ( i = 0; i < 9; i ++){
+    for ( i = 0; i < 10; i ++){
        if ( i == 0){
         document.getElementById("line0").innerHTML = "        #";
         console.log(document.getElementById("line0"));
@@ -27,6 +27,9 @@ function tree(){
        }
        if (i ==8){
         document.getElementById("line8").innerHTML = "#################";
+       }
+       if (i ==9){
+        document.getElementById("line9").innerHTML = "Press refresh to do it again";
        }
     
     }
